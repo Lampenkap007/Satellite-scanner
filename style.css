@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cards {
+  display: flex;
+  justify-items: center;
+}
+
+.satellites {
+  display: flex;
+  justify-content: space-between;
+}
+.satelite {
+  display: flex;
+  justify-content: center;
+  background-color: darkblue;
+  width: 200px;
+}
+span:hover {
+  cursor: pointer;
+  color: blue;
+}
+img:hover {
+  cursor: pointer;
+}
+h1 {
+  width: 100vw;
+  text-align: center;
+}
