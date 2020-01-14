@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#map {
+  height: 85vh;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.backbutton {
+  position: absolute;
+  left: 20px;
+  top: 27px;
+  height: 75px;
+  width: 150px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+.backbutton:hover {
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+}
